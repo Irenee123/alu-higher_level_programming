@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-import pythoniscool_101
+import #pythoniscool_101
