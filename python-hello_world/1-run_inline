@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 2 chars long $PYFILE
+python3 irenee.py $PYCODE
