@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-""" File name : 6-base_geometry.py
-    It is not allowed to import any module
-"""
+"""Empty BaseGeometry class"""
 
 
-class BaseGeometry(object):
-    """Define class base geometry"""
+class BaseGeometry:
+    """Class Geometry"""
+
     def area(self):
-        """area: return area"""
-        raise Exception("area() is not implemented")
+        """Raises Exception only"""
+        raise Exception('area() is not implemented')

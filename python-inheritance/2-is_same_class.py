@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-""" File name : 2-is_same_class.py
-    It is not allowed to import any module
-"""
+"""Checks object class"""
 
 
 def is_same_class(obj, a_class):
-    """Define if a obj is instance of class"""
-    if type(obj) == a_class:
-        return True
-    return False
+    """Checks object class
+    Args:
+        - obj: object to class
+        - a_class: class to check
+    """
+    return type(obj) is a_class

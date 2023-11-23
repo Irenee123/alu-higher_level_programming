@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-""" File name : 0-lookup.py
-    It is not allowed to import any module
-"""
+"""list of available attributes and methods of an object"""
 
 
 def lookup(obj):
-    """ A list object"""
+    """Return attributes
+    Args :
+        - obj: object to get attributes
+    """
+
     return dir(obj)
